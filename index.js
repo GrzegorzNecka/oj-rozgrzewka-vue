@@ -17,6 +17,7 @@ Vue.component("text-editor", {
     <textarea 
       name="editor"
       v-model="message"
+      v-bind:placeholder="message"
       class="p-5 h-40 w-64 shadow-md rounded-md">
     </textarea>
     <div class="text-right">
